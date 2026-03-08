@@ -1,12 +1,14 @@
 const data = {
     eng: {
         navbar: {
+            darkMode: "DARK MODE",
             skills: "Skills",
             projects: "Projects",
             hireMe: "Hire me"
         },
 
         heroSection: {
+
             greeting: "HI!",
             name: "Almila Su",
             title: "Creative thinker Minimalism lover",
@@ -82,14 +84,16 @@ const data = {
 
     tr: {
         navbar: {
+            darkMode: "KARANLIK TEMA",
             skills: "Yetenekler",
             projects: "Projeler",
             hireMe: "Beni işe al"
         },
 
         heroSection: {
+
             greeting: "MERHABA!",
-            name: "Ben Almila",
+            name: "Almila Su",
             title: "Yaratıcı düşünür Minimalizm sever",
             description: "Merhaba, ben Almila. Ölçeklenebilir frontend ürünleri geliştiren bir full-stack geliştiriciyim.",
             profileImage: "/hero.jpg",
