@@ -9,7 +9,7 @@ const data = {
 
         heroSection: {
 
-            greeting: "HI!",
+
             name: "Almila Su",
             title: "Creative thinker Minimalism lover",
             description: "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
@@ -18,7 +18,9 @@ const data = {
             github: "Github",
             linkedin: "Linkedin"
         },
-
+        skillsTitle: {
+            title: "Skills"
+        },
         skills: [{
                 title: "JavaScript",
                 description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -39,6 +41,14 @@ const data = {
             city: "Ankara",
             education: "Hacettepe University Biology Bachelor's Degree, 2016",
             role: "Frontend, UI"
+        },
+
+        profileData: {
+            title: "Profile",
+            birthDate: "Birth Date",
+            city: "City",
+            education: "Education",
+            role: "Role"
         },
 
         about: {
@@ -92,16 +102,18 @@ const data = {
 
         heroSection: {
 
-            greeting: "MERHABA!",
+
             name: "Almila Su",
             title: "Yaratıcı düşünür Minimalizm sever",
-            description: "Merhaba, ben Almila. Ölçeklenebilir frontend ürünleri geliştiren bir full-stack geliştiriciyim.",
-            profileImage: "/hero.jpg",
+            description: "Merhaba, ben Almila! Full-stack geliştiriciyim. Eğer mükemmel kullanıcı deneyimi sunan, dayanıklı ve ölçeklenebilir frontend projeleri inşa edecek birini arıyorsanız, tanışalım ve birlikte çalışmaya başlayalım!",
+            profileImage: "./src/assets/image.png",
             hireBtn: "Beni işe al",
             github: "Github",
             linkedin: "Linkedin"
         },
-
+        skillsTitle: {
+            title: "Yetenekler"
+        },
         skills: [{
                 title: "JavaScript",
                 description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -124,6 +136,14 @@ const data = {
             role: "Frontend, UI"
         },
 
+        profileData: {
+            title: "Profil",
+            birthDate: "Doğum Tarihi",
+            city: "Şehir",
+            education: "Eğitim",
+            role: "Ünvan"
+        },
+
         about: {
             title: "Hakkımda",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
@@ -133,7 +153,7 @@ const data = {
         projects: [{
                 title: "Workintech",
                 description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan; basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisidir. Vanilla JS, SCSS ve Parcel Bundler ile geliştirilen bu araç, hem bir NPM paketi olarak sunulmakta hem de Git deposu üzerinden kod ve tema üzerinde her türlü özelleştirmeye imkan tanımaktadır.",
-                image: "/projects/workintech.jpg",
+                image: "./assets/app-example1.png",
                 technologies: ["react", "redux", "axios"],
                 github: "#",
                 site: "#"
@@ -141,7 +161,7 @@ const data = {
             {
                 title: "Random Jokes",
                 description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan; basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisidir. Vanilla JS, SCSS ve Parcel Bundler ile geliştirilen bu araç, hem bir NPM paketi olarak sunulmakta hem de Git deposu üzerinden kod ve tema üzerinde her türlü özelleştirmeye imkan tanımaktadır.",
-                image: "/projects/random-jokes.jpg",
+                image: "./assets/app-example2.png",
                 technologies: ["react", "redux", "axios"],
                 github: "#",
                 site: "#"
@@ -149,7 +169,7 @@ const data = {
             {
                 title: "Journey",
                 description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan; basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisidir. Vanilla JS, SCSS ve Parcel Bundler ile geliştirilen bu araç, hem bir NPM paketi olarak sunulmakta hem de Git deposu üzerinden kod ve tema üzerinde her türlü özelleştirmeye imkan tanımaktadır.",
-                image: "/projects/journey.jpg",
+                image: "./assets/app-example3.png",
                 technologies: ["react", "redux", "axios"],
                 github: "#",
                 site: "#"

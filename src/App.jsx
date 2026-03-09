@@ -4,12 +4,25 @@ import Skills from "./components/Skills";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
 
 function App() {
 
-  const [lang, setLang] = useState("eng");
-  const [darkMode, setDarkMode] = useState(false);
+  const { lang, darkMode } = useSelector((state) => state);
+  const dispatch = useDispatch();
+
+  const setLang = (value) => {
+    dispatch({ type: "SET_LANG", payload: value });
+  };
+
+  const setDarkMode = (value) => {
+    dispatch({ type: "SET_DARKMODE", payload: value });
+  };
+
+  const toggleLanguage = () => {
+    setLang(lang === "eng" ? "tr" : "eng");
+  };
 
   useEffect(() => {
     if (darkMode) {
@@ -21,17 +34,12 @@ function App() {
 
   return (
     <div className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white min-h-screen">
-      <Navbar 
-        lang={lang}
-        setLang={setLang}
-        darkMode={darkMode}
-        setDarkMode={setDarkMode}
-      />
-      <Hero lang={lang}/>
-      <Skills lang={lang}/>
-      <Profile lang={lang}/>
-      <Projects lang={lang}/>
-      <Contact lang={lang}/>
+      <Navbar />
+      <Hero />
+      <Skills />
+      <Profile />
+      <Projects />
+      <Contact />
     </div>
   );
 }
