@@ -7,7 +7,7 @@ export default function Skills() {
   const skills = data[lang].skills;
 
   return (
-    <section className="max-w-6xl mx-auto px-10 py-16">
+    <section className="max-w-7xl mx-auto px-10 py-16">
 
       <h2 className="text-3xl font-bold mb-10">
         {skillsTitle.title}

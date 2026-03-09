@@ -9,7 +9,7 @@ export default function Hero() {
   const hero = data[lang].heroSection;
 
   return (
-    <section className="max-w-6xl mx-auto px-10 grid md:grid-cols-2 gap-12 items-center">
+    <section className="max-w-7xl mx-auto px-10 grid md:grid-cols-2 gap-12 items-center">
 
       <div>
 

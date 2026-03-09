@@ -23,7 +23,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="max-w-6xl mx-auto px-10 py-6 flex flex-col gap-6">
+    <nav className="max-w-7xl mx-auto px-10 py-6 flex flex-col gap-6">
 
       <div className="flex justify-end items-center gap-6">
 

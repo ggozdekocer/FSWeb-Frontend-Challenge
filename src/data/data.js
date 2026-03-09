@@ -60,32 +60,32 @@ const data = {
         projects: [{
                 title: "Workintech",
                 description: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                image: "./assets/app-example1.png",
+                image: "./src/assets/app-example1.png",
                 technologies: ["react", "redux", "axios"],
-                github: "#",
-                site: "#"
+                github: "https://www.linkedin.com/in/gozdekocer/",
+                site: "https://www.linkedin.com/in/gozdekocer/"
             },
             {
                 title: "Random Jokes",
                 description: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                image: "./assets/app-example2.png",
+                image: "./src/assets/app-example2.png",
                 technologies: ["react", "redux", "axios"],
-                github: "#",
-                site: "#"
+                github: "https://www.linkedin.com/in/gozdekocer/",
+                site: "https://www.linkedin.com/in/gozdekocer/"
             },
             {
                 title: "Journey",
                 description: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                image: "./assets/app-example3.png",
+                image: "./src/assets/app-example3.png",
                 technologies: ["react", "redux", "axios"],
-                github: "#",
-                site: "#"
+                github: "https://www.linkedin.com/in/gozdekocer/",
+                site: "https://www.linkedin.com/in/gozdekocer/"
             }
         ],
 
         contact: {
             title: "Let's work together on your next product.",
-            email: "amiliasucode@gmail.com",
+            email: "almilasucode@gmail.com",
             blog: "Personal Blog",
             github: "Github",
             linkedin: "Linkedin"
@@ -141,7 +141,7 @@ const data = {
             birthDate: "Doğum Tarihi",
             city: "Şehir",
             education: "Eğitim",
-            role: "Ünvan"
+            role: "Tercih Ettiği Rol"
         },
 
         about: {
@@ -155,30 +155,30 @@ const data = {
                 description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan; basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisidir. Vanilla JS, SCSS ve Parcel Bundler ile geliştirilen bu araç, hem bir NPM paketi olarak sunulmakta hem de Git deposu üzerinden kod ve tema üzerinde her türlü özelleştirmeye imkan tanımaktadır.",
                 image: "./assets/app-example1.png",
                 technologies: ["react", "redux", "axios"],
-                github: "#",
-                site: "#"
+                github: "https://www.linkedin.com/in/gozdekocer/",
+                site: "https://www.linkedin.com/in/gozdekocer/"
             },
             {
                 title: "Random Jokes",
                 description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan; basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisidir. Vanilla JS, SCSS ve Parcel Bundler ile geliştirilen bu araç, hem bir NPM paketi olarak sunulmakta hem de Git deposu üzerinden kod ve tema üzerinde her türlü özelleştirmeye imkan tanımaktadır.",
                 image: "./assets/app-example2.png",
                 technologies: ["react", "redux", "axios"],
-                github: "#",
-                site: "#"
+                github: "https://www.linkedin.com/in/gozdekocer/",
+                site: "https://www.linkedin.com/in/gozdekocer/"
             },
             {
                 title: "Journey",
                 description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan; basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisidir. Vanilla JS, SCSS ve Parcel Bundler ile geliştirilen bu araç, hem bir NPM paketi olarak sunulmakta hem de Git deposu üzerinden kod ve tema üzerinde her türlü özelleştirmeye imkan tanımaktadır.",
                 image: "./assets/app-example3.png",
                 technologies: ["react", "redux", "axios"],
-                github: "#",
-                site: "#"
+                github: "https://www.linkedin.com/in/gozdekocer/",
+                site: "https://www.linkedin.com/in/gozdekocer/"
             }
         ],
 
         contact: {
             title: "Bir sonraki ürününüz için birlikte çalışalım.",
-            email: "amiliasucode@gmail.com",
+            email: "almilasucode@gmail.com",
             blog: "Kişisel Blog",
             github: "Github",
             linkedin: "Linkedin"

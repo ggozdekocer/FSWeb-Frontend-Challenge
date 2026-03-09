@@ -33,7 +33,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-white min-h-screen">
+    <div className="bg-white dark:bg-gray-900 text-gray-800 dark:text-white min-h-screen">
       <Navbar />
       <Hero />
       <Skills />
