@@ -8,21 +8,8 @@ import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
 function App() {
-
   const { lang, darkMode } = useSelector((state) => state);
   const dispatch = useDispatch();
-
-  const setLang = (value) => {
-    dispatch({ type: "SET_LANG", payload: value });
-  };
-
-  const setDarkMode = (value) => {
-    dispatch({ type: "SET_DARKMODE", payload: value });
-  };
-
-  const toggleLanguage = () => {
-    setLang(lang === "eng" ? "tr" : "eng");
-  };
 
   useEffect(() => {
     if (darkMode) {
@@ -33,7 +20,7 @@ function App() {
   }, [darkMode]);
 
   return (
-    <div className="bg-white dark:bg-gray-900 text-gray-800 dark:text-white min-h-screen">
+    <div className="bg-white dark:bg-[#252128] text-gray-800 dark:text-white min-h-screen transition-colors duration-300">
       <Navbar />
       <Hero />
       <Skills />

@@ -48,7 +48,7 @@ const data = {
             birthDate: "Birth Date",
             city: "City",
             education: "Education",
-            role: "Role"
+            role: "Preferred Role"
         },
 
         about: {
@@ -56,7 +56,10 @@ const data = {
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
             description2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
         },
-
+        projectsDetail: {
+            header: "Projects",
+            viewSite: "View Site",
+        },
         projects: [{
                 title: "Workintech",
                 description: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
@@ -139,8 +142,8 @@ const data = {
         profileData: {
             title: "Profil",
             birthDate: "Doğum Tarihi",
-            city: "Şehir",
-            education: "Eğitim",
+            city: "İkamet Şehri",
+            education: "Eğitim Durumu",
             role: "Tercih Ettiği Rol"
         },
 
@@ -149,8 +152,12 @@ const data = {
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
             description2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
         },
-
+        projectsDetail: {
+            header: "Projeler",
+            viewSite: "Siteyi Görüntüle"
+        },
         projects: [{
+
                 title: "Workintech",
                 description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan; basit, özelleştirilebilir ve minimum kurulum gerektiren bir çerez eklentisidir. Vanilla JS, SCSS ve Parcel Bundler ile geliştirilen bu araç, hem bir NPM paketi olarak sunulmakta hem de Git deposu üzerinden kod ve tema üzerinde her türlü özelleştirmeye imkan tanımaktadır.",
                 image: "./assets/app-example1.png",
