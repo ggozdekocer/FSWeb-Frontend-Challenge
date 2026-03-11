@@ -5,11 +5,10 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 function App() {
-  const { lang, darkMode } = useSelector((state) => state);
-  const dispatch = useDispatch();
+  const { darkMode } = useSelector((state) => state);
 
   useEffect(() => {
     if (darkMode) {
@@ -21,12 +20,20 @@ function App() {
 
   return (
     <div className="bg-white dark:bg-[#252128] text-gray-800 dark:text-white min-h-screen transition-colors duration-300">
-      <Navbar />
-      <Hero />
-      <Skills />
-      <Profile />
-      <Projects />
-      <Contact />
+      <header>
+        <Navbar />
+      </header>
+      
+      <main>
+        <Hero />
+        <Skills />
+        <Profile />
+        <Projects />
+      </main>
+
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 }

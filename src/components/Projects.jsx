@@ -11,8 +11,8 @@ export default function Projects() {
       <h2 className="text-3xl font-bold mb-12 dark:text-[#AEBCCF]">{projectsDetail.header}</h2>
       <div className="grid md:grid-cols-3 gap-10">
         {projects.map((project, index) => (
-          <div key={index} className="bg-white dark:bg-[#2D2C34] rounded-xl shadow-sm overflow-hidden transition-colors">
-            <img src={project.image} alt={project.title} className="w-full object-cover" />
+          <div key={index} className="bg-white dark:bg-[#2D2C34] rounded-xl shadow-sm overflow-hidden">
+            <img src={project.image} alt="" />
             <div className="p-5">
               <h3 className="text-indigo-600 dark:text-[#CFCBFF] text-lg font-semibold mb-2">{project.title}</h3>
               <p className="text-sm text-gray-600 dark:text-white mb-4">{project.description}</p>
