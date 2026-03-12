@@ -14,7 +14,7 @@ export default function Hero() {
         title: "Hire Me Request",
         body: "Request from Hero section",
         userId: 1,
-      })
+      }) 
       .then((response) => {
         if (response.status === 201) {
           
@@ -53,14 +53,14 @@ export default function Hero() {
           href="https://github.com/ggozdekocer" 
           target="_blank" 
           rel="noreferrer" 
-          className="text-indigo-600 dark:text-[#E1E1FF] border dark:border-[#E1E1FF] px-5 py-3 rounded-lg flex items-center gap-2 hover:bg-indigo-50 dark:hover:bg-gray-800 transition">
+          className="text-indigo-600 dark:text-[#E1E1FF] md:flex-none justify-center border dark:border-[#E1E1FF] px-5 py-3 rounded-lg flex items-center gap-2 hover:bg-indigo-50 dark:hover:bg-gray-800 transition">
             <FaGithub /> {hero.github}
           </a>
           <a 
           href="https://www.linkedin.com/in/gozdekocer/" 
           target="_blank" 
           rel="noreferrer" 
-          className="text-indigo-600 dark:text-[#E1E1FF] border dark:border-[#E1E1FF] px-5 py-3 rounded-lg flex items-center gap-2 hover:bg-indigo-50 dark:hover:bg-gray-800 transition">
+          className="text-indigo-600 dark:text-[#E1E1FF] md:flex-none justify-center border dark:border-[#E1E1FF] px-5 py-3 rounded-lg flex items-center gap-2 hover:bg-indigo-50 dark:hover:bg-gray-800 transition">
             <FaLinkedinIn /> {hero.linkedin}
           </a>
         </div>
